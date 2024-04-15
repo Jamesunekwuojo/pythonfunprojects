@@ -39,7 +39,12 @@ if __name__ == '__main__':
 	
 	# Put a heading "Fun Fact Generator" 
 	put_html('<p align="left"><h2><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210720224119/MessagingHappyicon.png" width="7%"> Fun Fact Generator</h2></p>') 
-	
+
+
+
+	# Function to change the default title of the pywebio app
+	set_env(title="James Funfacts Generator")
+
 	# hold the session for long time 
 	# Put a Click me button 
 	put_buttons( 
